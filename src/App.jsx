@@ -1,12 +1,7 @@
-function App() {
+import Comments from "./pages/Comments/Comments";
 
-  return (
-    <>
-      <div>
-        <p>Task 3</p>
-      </div>
-    </>
-  )
+function App() {
+  return <Comments />;
 }
 
-export default App
+export default App;

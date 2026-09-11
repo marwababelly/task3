@@ -1,0 +1,59 @@
+.form {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  margin-bottom: 40px;
+}
+
+.form h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin-bottom: 16px;
+}
+
+.field label {
+  font-weight: 600;
+  color: #444;
+}
+
+.field input,
+.field textarea {
+  padding: 11px 13px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  font-size: 15px;
+  font-family: inherit;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.field input:focus,
+.field textarea:focus {
+  border-color: #7c9d96;
+}
+
+.field textarea {
+  resize: vertical;
+}
+
+.button {
+  border: none;
+  background: #7c9d96;
+  color: white;
+  padding: 11px 20px;
+  border-radius: 7px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
